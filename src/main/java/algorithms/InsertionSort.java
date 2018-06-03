@@ -50,8 +50,13 @@ public class InsertionSort {
                 System.out.println("------------------");
             }
             System.out.println("Once while loop condition is not satisfied...");
-            System.out.println("key assigned to a[" + (j + 1) + "] " + a[j + 1]);
             a[j + 1] = key;
+            System.out.println("key assigned to a[" + (j + 1) + "] " + a[j + 1]);
+            System.out.println("When i = " + i + " completes, the array looks like this..");
+            for (int k = 0; k < a.length; k++) {
+                System.out.print(a[k] + " ");
+            }
+            System.out.println();
             System.out.println("===========================");
         }
         return a;

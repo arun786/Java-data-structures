@@ -45,7 +45,6 @@
 ### Example :
         a = {5, 2, 4, 6, 1, 3};
         
-        
         i = 1 and Key = 2
         j = 0 element 5
         Compare if j is greater than 0 and a at index 0 value = 5 is greater than or less than key 2
@@ -55,7 +54,9 @@
             index j reduced -1
         ------------------
         Once while loop condition is not satisfied...
-        key assigned to a[0] 5
+        key assigned to a[0] 2
+        When i = 1 completes, the array looks like this..
+        2 5 4 6 1 3 
         ===========================
         i = 2 and Key = 4
         j = 1 element 5
@@ -66,13 +67,17 @@
             index j reduced 0
         ------------------
         Once while loop condition is not satisfied...
-        key assigned to a[1] 5
+        key assigned to a[1] 4
+        When i = 2 completes, the array looks like this..
+        2 4 5 6 1 3 
         ===========================
         i = 3 and Key = 6
         j = 2 element 5
         Compare if j is greater than 0 and a at index 2 value = 5 is greater than or less than key 6
         Once while loop condition is not satisfied...
         key assigned to a[3] 6
+        When i = 3 completes, the array looks like this..
+        2 4 5 6 1 3 
         ===========================
         i = 4 and Key = 1
         j = 3 element 6
@@ -98,7 +103,9 @@
             index j reduced -1
         ------------------
         Once while loop condition is not satisfied...
-        key assigned to a[0] 2
+        key assigned to a[0] 1
+        When i = 4 completes, the array looks like this..
+        1 2 4 5 6 3 
         ===========================
         i = 5 and Key = 3
         j = 4 element 6
@@ -119,6 +126,8 @@
             index j reduced 1
         ------------------
         Once while loop condition is not satisfied...
-        key assigned to a[2] 4
+        key assigned to a[2] 3
+        When i = 5 completes, the array looks like this..
+        1 2 3 4 5 6 
         ===========================
-        1 2 3 4 5 6
+        1 2 3 4 5 6 
